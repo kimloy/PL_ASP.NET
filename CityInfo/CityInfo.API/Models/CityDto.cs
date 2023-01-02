@@ -15,8 +15,8 @@
                 return PointsOfInterest.Count;
             }
         }
-
-        public ICollection<PointOfInterestDto> PointsOfInterest { get; set;} = new List<PointOfInterestDto>(); // When working with Collection is a good idea to initalize them as empty instead of null
+        // When working with Collection is a good idea to initalize them as empty instead of null
+        public ICollection<PointOfInterestDto> PointsOfInterest { get; set;} = new List<PointOfInterestDto>();
 
     }
 }
